@@ -1,0 +1,4 @@
+npm init -y
+npm install express cep-promise
+node cep.js
+http://localhost:3000/consulta-cep/13402268
