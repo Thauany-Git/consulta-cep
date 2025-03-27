@@ -18,8 +18,8 @@ Este projeto é uma aplicação simples em Node.js que consulta informações de
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/consulta-cep.git
-   cd consulta-cep-api
+   git clone https://github.com/Thauany-Git/consulta-cep.git
+   cd consulta-cep
    ```
 
 2. **Instale as dependências**:
@@ -33,7 +33,7 @@ Este projeto é uma aplicação simples em Node.js que consulta informações de
    ```
 O servidor estará disponível em `http://localhost:3000/consulta-cep/:cep`.
 
-Substitua :cep pelo CEP desejado para obter as informações.
+Substitua **:cep** pelo CEP desejado para obter as informações.
 
  A resposta será um JSON com os dados do endereço:
    ```json
