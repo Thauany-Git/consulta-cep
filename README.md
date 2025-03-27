@@ -14,9 +14,7 @@ Este projeto é uma aplicação simples em Node.js que consulta informações de
 - **Express**: Framework web minimalista para criação de servidores HTTP.
 - **CEP-Promise**:  Biblioteca para buscar os dados de endereço a partir de um CEP.
 
-## Instalação e como Utilizar
-
-Siga os passos abaixo para configurar o projeto localmente:
+## Instalação e Utilização
 
 1. **Clone o repositório**:
    ```bash
@@ -34,6 +32,7 @@ Siga os passos abaixo para configurar o projeto localmente:
    node cep.js
    ```
 O servidor estará disponível em `http://localhost:3000/consulta-cep/:cep`.
+
 Substitua :cep pelo CEP desejado para obter as informações.
 
  A resposta será um JSON com os dados do endereço:
