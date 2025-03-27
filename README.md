@@ -18,7 +18,7 @@ Este projeto é uma aplicação simples em Node.js que consulta informações de
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/consulta-cep-api.git
+   git clone https://github.com/seu-usuario/consulta-cep.git
    cd consulta-cep-api
    ```
 
