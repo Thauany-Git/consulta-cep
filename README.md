@@ -7,22 +7,21 @@ Este projeto é uma aplicação simples em Node.js que consulta informações de
 
 - Consultar informações de endereço a partir de um CEP.
 - Retorno de dados completos e validados.
-- Fácil de integrar com outras aplicações.
 
 ## Tecnologias Utilizadas
 
 - **Node.js**: Plataforma para execução de JavaScript no servidor.
 - **Express**: Framework web minimalista para criação de servidores HTTP.
-- **CEP-Promise**: Biblioteca para consultas de CEP em múltiplos serviços.
+- **CEP-Promise**:  Biblioteca para buscar os dados de endereço a partir de um CEP.
 
-## Instalação
+## Instalação e como Utilizar
 
 Siga os passos abaixo para configurar o projeto localmente:
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/consulta-cep.git
-   cd consulta-cep
+   git clone https://github.com/seu-usuario/consulta-cep-api.git
+   cd consulta-cep-api
    ```
 
 2. **Instale as dependências**:
@@ -32,23 +31,12 @@ Siga os passos abaixo para configurar o projeto localmente:
 
 3. **Inicie o servidor**:
    ```bash
-   node index.js
+   node cep.js
    ```
+O servidor estará disponível em `http://localhost:3000/consulta-cep/:cep`.
+Substitua :cep pelo CEP desejado para obter as informações.
 
-O servidor estará disponível em `http://localhost:3000`.
-
-## Como Usar
-
-1. Com o servidor em execução, acesse a seguinte rota no navegador ou use um cliente de API (como Postman ou Insomnia):
-   ```
-   GET http://localhost:3000/consulta/:cep
-   ```
-   Substitua `:cep` por um CEP válido. Exemplo:
-   ```
-   GET http://localhost:3000/consulta/01001000
-   ```
-
-2. A resposta será um JSON com os dados do endereço:
+ A resposta será um JSON com os dados do endereço:
    ```json
    {
        "sucesso": true,
